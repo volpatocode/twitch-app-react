@@ -1,13 +1,17 @@
 import { createGlobalStyle} from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-  * {
+  *, input, button{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-    background-color: black;
+    background-color: yellow;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: none;
+    text-decoration: none;
   }
+
 `
 
 
