@@ -12,6 +12,13 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
 
+  html,body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+  }
+
 `
 
 

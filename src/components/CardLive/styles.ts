@@ -1,22 +1,40 @@
 import styled from "styled-components"
-
-export const CardLive = styled.div`
-
+import { propsType } from "./index"
+export const CardLive = styled.div<propsType>`
 
 img{
     max-width: fit-content;
-    width:${(props) => props.imgWidth === "horizontal" ? "200px" : "100px"};
-    height:${(props) => props.imgHeight === "horizontal"? "200px" : "100px"};
-}
+    width:${(props) => {switch(props.imgWidth)
+    {
+        case "announcementLive":
+            return "530px"
+        case "cardGame":
+            return "150px"
+        case "cardLive":
+            return "300px"
+        default: "auto"
+    }
+}};
 
-a{
-    cursor: pointer;
-}
+    height:${(props) => {switch(props.imgHeight)
+    {
+        case "announcementLive":
+            return "300px"
+        case "cardGame":
+            return "200px"
+        case "cardLive":
+            return "170px"
+        default: "auto"
+    }
+}}};
 
 img:hover{
-    top: -5px;
-    right: -5px;
+    transition: 150ms linear;
+    top: -3px;
+    right: -3px;
     position: relative;
+    cursor: pointer;
+    
 }
 
 div{
@@ -26,4 +44,5 @@ div{
     max-width: fit-content;
     max-height: fit-content;
 } 
-`;
+`
+

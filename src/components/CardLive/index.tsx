@@ -1,18 +1,20 @@
 import React from 'react'
 import * as S from "../CardLive/styles"
 
-type propsType = {
-    imgWidth:"horizontal" | "vertical";
-    imgHeight:"horizontal" | "vertical";
+export type propsType = {
+    imgWidth: string;
+    imgHeight: string;
     imgSource:string;
     imgAlt: string;
     linkHover: string;
 }
 
- const index = ({imgSource, imgAlt, imgHeight, imgWidth, linkHover, ...rest}: propsType) => {
+ const index = (props: propsType) => {
+  const {imgSource, imgAlt, imgHeight, imgWidth, linkHover} = props;
+
   return (
     <>
-      <S.CardLive>
+      <S.CardLive {...props}>
         <div>
           <a href={linkHover}>
             <img src={imgSource}
