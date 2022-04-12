@@ -2,8 +2,8 @@ import React from 'react'
 import * as S from "./styles"
 
 export type propsType = {
-    dotWidth?: string;
-    dotHeight?: string;
+    dotWidth: string;
+    dotHeight: string;
 }
 
  const index = (props: propsType) => {
@@ -11,10 +11,17 @@ export type propsType = {
 
   return (
     <>
-      <S.RedDot width={dotWidth} height={dotHeight} {...props}/>
+      <S.RedDot width={dotWidth}
+      height={dotHeight}
+      {...props}
+      >
+        
+      </S.RedDot>
     </>
   )
 }
+
+
 
 export default index;
 

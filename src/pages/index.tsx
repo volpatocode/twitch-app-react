@@ -1,5 +1,6 @@
 import React from "react"
-import ShowMore from "../components/ShowMore"
+import SearchBar from "../components/SearchBar"
+
 
 type propsType = {
   
@@ -7,9 +8,10 @@ type propsType = {
 
 export default function Home({}: propsType){
   return (
-        
-    <ShowMore text="Mostrar mais"/>
-    
+    <>
+
+      <SearchBar/>
+    </>
     
   )
 }

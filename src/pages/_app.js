@@ -6,7 +6,6 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-    background-color: yellow;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     border: none;
     text-decoration: none;
@@ -17,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
     justify-content: center;
     align-items:center;
     height: 100%;
+    background-color: yellow;
   }
 
 `
