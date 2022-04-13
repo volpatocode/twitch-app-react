@@ -35,8 +35,4 @@ export const SearchBar = styled.div<propsType>`
         display: flex;
         align-items: center;
     }
-
-
-
-   
 `;
