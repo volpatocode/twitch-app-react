@@ -10,6 +10,6 @@ export const TripleDotIcon= styled.div`
 
 
     svg:hover{
-    background-color: rgba(0,0,0,0.3);
+    background:hsla(0,0%,20%,075);
   }
 `

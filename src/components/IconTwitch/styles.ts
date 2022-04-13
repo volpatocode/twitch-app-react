@@ -4,7 +4,7 @@ import { propsType } from "./index"
 
 export const IconTwitch = styled.div<propsType>`
     img{
-        width:30px;
+        width:26px;
         height:30px;
     }
 

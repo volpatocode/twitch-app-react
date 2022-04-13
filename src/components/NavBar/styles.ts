@@ -4,9 +4,10 @@ import { propsType } from "./index";
 export const NavBar = styled.div<propsType>`
   div{
       background-color: #18181B;
-      width: 100vw;
       height: 6vh;
+      width: 100%;
+      align-items: center;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
   }
 `

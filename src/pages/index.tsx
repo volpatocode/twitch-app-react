@@ -1,18 +1,21 @@
 import React from "react"
-import IconTwitch  from "../components/IconTwitch"
+import NavBar from "../components/NavBar"
 
 
 
 
 type propsType = {
+
   
 }
 
 export default function Home({}: propsType){
+
   return (
     <>
 
-      <IconTwitch></IconTwitch>
+      <NavBar/>
+      
       
     </>
     
