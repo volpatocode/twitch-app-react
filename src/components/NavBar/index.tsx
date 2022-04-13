@@ -14,7 +14,7 @@ const index = (props: propsType) => {
     <>
       <S.NavBar>
         <div>
-          <TripleDotIcon/>
+          
         </div>
       </S.NavBar>
     </>

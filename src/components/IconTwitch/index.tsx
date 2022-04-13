@@ -11,7 +11,7 @@ export type propsType = {
   return (
     <>
       <S.IconTwitch>
-        
+        <img src="https://www.freepnglogos.com/uploads/twitch-tv-logo-vector-png-24.png" alt="Logo Twitch" />
       </S.IconTwitch>
     </>
   )

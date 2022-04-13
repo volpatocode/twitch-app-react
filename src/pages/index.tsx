@@ -1,5 +1,6 @@
 import React from "react"
-import NavBar from "../components/NavBar"
+import IconTwitch  from "../components/IconTwitch"
+
 
 
 
@@ -11,7 +12,7 @@ export default function Home({}: propsType){
   return (
     <>
 
-      <NavBar></NavBar>
+      <IconTwitch></IconTwitch>
       
     </>
     
