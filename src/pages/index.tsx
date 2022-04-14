@@ -1,23 +1,12 @@
-import React from "react"
-import NavBar from "../components/NavBar"
+import React from "react";
+import LiveBoxWrapper from "../components/LiveBoxWrapper"
 
 
+type propsType = {};
 
-
-type propsType = {
-
-  
-}
-
-export default function Home({}: propsType){
-
+export default function Home({}: propsType) {
   return (
-    <>
+    <LiveBoxWrapper/>
 
-      <NavBar/>
-      
-      
-    </>
-    
-  )
+  );
 }

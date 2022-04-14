@@ -1,21 +1,13 @@
-import React from 'react'
-import * as S from "./styles"
+import React from "react";
+import * as S from "./styles";
 
 type propsType = {
   text: string;
   linkUrl: string;
-}
+};
 
- const index = ({text, linkUrl}: propsType) => {
-  return (
-      <>
-        <S.Button>
-          <a href={linkUrl}>
-            {text}
-          </a>
-          </S.Button>
-      </>
-  );
-}
+const index = ({ text, linkUrl }: propsType) => {
+  return <S.Button href={linkUrl}>{text}</S.Button>;
+};
 
 export default index;

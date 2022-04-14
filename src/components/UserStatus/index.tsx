@@ -1,22 +1,12 @@
-import React from 'react'
-import * as S from "./styles"
+import React from "react";
+import * as S from "./styles";
 
 export type propsType = {
-  bgColor: string;
-}
+  bgColor: "online" | "offline" | "away" | "busy";
+};
 
- const index = (props: propsType) => {
-  const {bgColor} = props;
-
-  return (
-    <>
-      <S.UserStatus {...props}>
-        <div background-color={bgColor} ></div>
-      </S.UserStatus>
-    </>
-  )
-}
+const index = (props: propsType) => {
+  return <S.UserStatus {...props} />;
+};
 
 export default index;
-
-
