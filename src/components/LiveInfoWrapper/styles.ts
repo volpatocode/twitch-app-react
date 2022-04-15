@@ -5,7 +5,8 @@ export const LiveInfoWrapper = styled.div<propsType>`
     background-color: red;
     padding: 3px 0px 3px 0px;
     width: 300px;
-    height: 100px;
+    max-height: 150px;
+    max-width: 300px;
 
     .grid{
         display: grid;
@@ -27,15 +28,21 @@ export const LiveInfoWrapper = styled.div<propsType>`
         gap: 5px;
         display: flex;
         flex-direction: column;
-        
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .icon{
         grid-area: "icon";
         padding: 1px;
         justify-self: flex-end;
-       
 }
+
+    .content__badges{
+        display: flex;
+        gap: 3px;
+        flex-wrap: wrap;
+    }
 
 `
 

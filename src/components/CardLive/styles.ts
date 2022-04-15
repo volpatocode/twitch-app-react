@@ -35,8 +35,7 @@ export const CardLive = styled.div<propsType>`
   }
 
   img:hover {
-    border-left: 3px solid #772ce8;
-    border-bottom: 3px solid #772ce8;
     cursor: pointer;
+    
   }
 `;
