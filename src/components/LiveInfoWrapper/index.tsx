@@ -24,7 +24,7 @@ const index = ({}: propsType) => {
           <LiveInfo infoText="calangao" />
           <LiveInfo infoText="Só na conversa" />
           <div className="content__badges">
-            <Badge text="Português" />
+            <Badge text="Portugûes" />
           </div>
         </div>
         <div className="icon">
