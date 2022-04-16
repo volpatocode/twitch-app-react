@@ -1,6 +1,7 @@
 import React from "react";
 import AvatarImage from "../AvatarImage";
 import Badge from "../Badge";
+import BadgeSpec from "../BadgeSpec";
 import Card from "../Card";
 import LiveInfo from "../LiveInfo";
 import LiveTitles from "../LiveTitles";
@@ -8,7 +9,7 @@ import TripleDotIcon from "../TripleDotIcon";
 import * as S from "./styles";
 
 export type propsType = {
-  avatarUrl: string;
+  avatarUrl: string;"
   avatarWidth: string;
   avatarHeight: string;
   titleText: string;
@@ -17,11 +18,16 @@ export type propsType = {
   badgeText: string;
   badgeVariant: "square" | "rounded";
   badgeBgColor: "grey" | "red";
+  liveBadgeText: string;
+  liveBadgeVariant: "square" | "rounded";
+  liveBadgeBgColor: "grey" | "red";
   imgSource: string;
   imgAlt: string;
   imgHeight: "cardGame" | "cardLive" | "announcementLive";
   imgWidth: "cardGame" | "cardLive" | "announcementLive";
   linkHover: string;
+  badgeSpecText: string;
+  badgeSpecBg: "transparent" | "none";
 };
 
 const index = ({
@@ -38,11 +44,26 @@ const index = ({
   imgAlt,
   imgHeight,
   imgWidth,
-  linkHover
+  linkHover,
+  badgeSpecBg,
+  badgeSpecText,
+  liveBadgeText,
+  liveBadgeVariant,
+  liveBadgeBgColor,
 }: propsType) => {
   return (
     <S.CardLiveWrapper>
       <div className="liveImage">
+        <div className="badgeSpec">
+          <BadgeSpec badgeSpecBg={badgeSpecBg} badgeSpecText={badgeSpecText} />
+        </div>
+        <div className="liveBadge">
+          <Badge
+            badgeBgColor={liveBadgeBgColor}
+            badgeText={liveBadgeText}
+            badgeVariant={liveBadgeVariant}
+          />
+        </div>
         <Card
           imgSource={imgSource}
           imgAlt={imgAlt}
@@ -64,9 +85,11 @@ const index = ({
           <LiveInfo infoText={infoText} />
           <LiveInfo infoText={infoText2} />
           <div className="content__badges">
-            <Badge badgeText={badgeText}
-            badgeVariant={badgeVariant}
-            badgeBgColor={badgeBgColor} /> 
+            <Badge
+              badgeText={badgeText}
+              badgeVariant={badgeVariant}
+              badgeBgColor={badgeBgColor}
+            />
           </div>
         </div>
         <div className="icon">

@@ -1,9 +1,9 @@
 import React from "react";
 import Card from "../Card";
-import LiveTitles from "../LiveTitles"
-import TripleDotIcon from "../TripleDotIcon"
-import Badge from "../Badge"
-import LiveInfo from "../LiveInfo"
+import LiveTitles from "../LiveTitles";
+import TripleDotIcon from "../TripleDotIcon";
+import Badge from "../Badge";
+import LiveInfo from "../LiveInfo";
 import * as S from "./styles";
 
 export type propsType = {
@@ -16,7 +16,7 @@ export type propsType = {
   infoText: string;
   badgeText: string;
   badgeBgColor: "grey" | "red";
-  badgeVariant: "square" | "rounded"
+  badgeVariant: "square" | "rounded";
 };
 
 const index = ({
@@ -29,26 +29,34 @@ const index = ({
   infoText,
   badgeText,
   badgeBgColor,
-  badgeVariant
+  badgeVariant,
 }: propsType) => {
   return (
     <S.CardGameWrapper>
       <Card
-      imgAlt={imgAlt}
-      imgWidth={imgWidth}
-      imgHeight={imgHeight}
-      imgSource={imgSource}
-      linkHover={linkHover} />
+        imgAlt={imgAlt}
+        imgWidth={imgWidth}
+        imgHeight={imgHeight}
+        imgSource={imgSource}
+        linkHover={linkHover}
+      />
 
-      <LiveTitles
-      titleText={titleText} />
-      <TripleDotIcon/>
-      <LiveInfo
-      infoText={infoText} />
-      <Badge badgeText={badgeText}
-      badgeBgColor={badgeBgColor}
-       badgeVariant={badgeVariant} />
-
+      <div className="grid">
+        <div className="titleAndInfo">
+          <LiveTitles titleText={titleText} />
+          <LiveInfo infoText={infoText} />
+        </div>
+        <div className="tripledot">
+          <TripleDotIcon />
+        </div>
+        <div className="badges">
+          <Badge
+            badgeText={badgeText}
+            badgeBgColor={badgeBgColor}
+            badgeVariant={badgeVariant}
+          />
+        </div>
+      </div>
     </S.CardGameWrapper>
   );
 };

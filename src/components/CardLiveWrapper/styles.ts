@@ -44,6 +44,20 @@ export const CardLiveWrapper = styled.div<propsType>`
   .liveImage{
     width: 300px;
     height: 170px;
-    background-color: aliceblue;
+    position: relative;
   }
+
+  .badgeSpec{
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+  }
+
+  .liveBadge{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+
+
 `;

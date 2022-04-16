@@ -7,11 +7,11 @@ type propsType = {
 }
 
  const index = (props: propsType) => {
-  const {badgeSpecText, badgeSpecBg} = props;
+  const {badgeSpecText, ...rest} = props;
   return (
     
       <>
-        <S.BadgeSpec {...props}>{badgeSpecText}</S.BadgeSpec>
+        <S.BadgeSpec {...rest}>{badgeSpecText}</S.BadgeSpec>
       </>
 
   );
