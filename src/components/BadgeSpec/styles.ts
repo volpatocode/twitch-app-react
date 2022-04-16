@@ -6,5 +6,5 @@ export const BadgeSpec = styled.div`
     padding:2px;
     text-align: center;
     width: fit-content;
-    font-size: 0.8rem;
+    font-size: 1.15rem;
 `

@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const AnnouncementLiveName = styled.div`
     h1{
-        font-size: 1.1rem;
+        font-size: 1.25rem;
         color: #bf94ff;
         font-weight:bold;
         margin-bottom: 3px;

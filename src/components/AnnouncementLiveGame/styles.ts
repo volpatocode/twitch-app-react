@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const AnnouncementLiveGame = styled.div`
     h1{
-        font-size: 1.1rem;
+        font-size: 1.18rem;
         color: #bf94ff;
         margin-bottom: 3px;
         &:hover{

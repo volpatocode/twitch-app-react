@@ -23,6 +23,10 @@ export type propsType = {
   badgeVariant: "square" | "rounded";
   badgeBgColor: "grey" | "red";
   badgeText: string;
+  announcementLiveParagraphText: string;
+  liveBadgeText: string;
+  liveBadgeVariant: "square" | "rounded";
+  liveBadgeBgColor: "grey" | "red";
 };
 
 const index = ({
@@ -40,7 +44,11 @@ const index = ({
   badgeSpecBg,
   badgeVariant,
   badgeBgColor,
+  liveBadgeText,
+  liveBadgeVariant,
+  liveBadgeBgColor,
   badgeText,
+  announcementLiveParagraphText,
 }: propsType) => {
   return (
     <>
@@ -54,25 +62,46 @@ const index = ({
               announcementLiveLink={announcementLiveLink}
               announcementLiveSource={announcementLiveSource}
             />
+            <div className="liveBadge">
+              <Badge
+                badgeText={liveBadgeText}
+                badgeVariant={liveBadgeVariant}
+                badgeBgColor={liveBadgeBgColor}
+              />
+            </div>
           </div>
 
           <div className="gridRight">
-            <AvatarImage
-              avatarUrl={avatarUrl}
-              avatarHeight={avatarHeight}
-              avatarWidth={avatarWidth}
-            />
-            <AnnouncementLiveName liveNameText={liveNameText} />
-            <AnnouncementLiveGame liveGameText={liveGameText} />
-            <BadgeSpec
-              badgeSpecText={badgeSpecText}
-              badgeSpecBg={badgeSpecBg}
-            />
-            <Badge
-              badgeVariant={badgeVariant}
-              badgeBgColor={badgeBgColor}
-              badgeText={badgeText}
-            />
+            <div className="rightFirstPart">
+              <div className="image">
+                <AvatarImage
+                  avatarUrl={avatarUrl}
+                  avatarHeight={avatarHeight}
+                  avatarWidth={avatarWidth}
+                />
+              </div>
+              <div className="info">
+                <AnnouncementLiveName liveNameText={liveNameText} />
+                <AnnouncementLiveGame liveGameText={liveGameText} />
+                <BadgeSpec
+                  badgeSpecText={badgeSpecText}
+                  badgeSpecBg={badgeSpecBg}
+                />
+              </div>
+            </div>
+
+            <div className="rightSecondPart">
+              <div className="badges">
+                <Badge
+                  badgeVariant={badgeVariant}
+                  badgeBgColor={badgeBgColor}
+                  badgeText={badgeText}
+                />
+              </div>
+              <S.AnnouncementLiveParagraph>
+                {announcementLiveParagraphText}
+              </S.AnnouncementLiveParagraph>
+            </div>
           </div>
         </div>
       </S.AnnouncementLiveWrapper>
