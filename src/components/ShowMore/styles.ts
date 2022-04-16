@@ -11,7 +11,10 @@ export const ShowMore = styled.div<propsType>`
     cursor: pointer;
     padding: 10px;
     border-radius: 3px;
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
   }
 
   button:hover{

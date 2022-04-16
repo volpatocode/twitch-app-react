@@ -7,7 +7,7 @@ export const Icon = styled.div<propsType>`
   border-radius: 3px;
   transform: ${(props) =>
     props.direction === "left" ? "rotateY(180deg)" : "initial"};
-  background-color: #0E0E10;
+  background: ${(props) => props.iconBg === "black" ? "#0E0E10" : "none"};
 
   :hover {
     background: hsla(0, 0%, 20%, 075);

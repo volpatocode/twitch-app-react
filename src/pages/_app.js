@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
     justify-content: center;
     align-items:center;
     height: 100%;
-    background-color:black;
+    background-color:darkorange;
   }
 
 `
