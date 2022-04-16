@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { propsType } from "./index";
 
-export const CardLive = styled.div<propsType>`
+export const Card = styled.div<propsType>`
   img {
     border-left: 0px solid #772ce8;
     border-bottom: 0px solid #772ce8;

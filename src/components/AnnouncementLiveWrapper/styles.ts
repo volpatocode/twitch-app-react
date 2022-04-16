@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { propsType } from "./index";
 
 export const AnnouncementLiveWrapper = styled.div<propsType>`
+  border: 1px solid rgba(0, 0, 0, 0.8);
   .gridAnnouncementLive {
     display: grid;
     grid-template-columns: 530px 220px;
@@ -54,4 +55,3 @@ export const AnnouncementLiveParagraph = styled.p<propsType>`
   color: #f6f6f6;
   text-align: left;
 `;
-

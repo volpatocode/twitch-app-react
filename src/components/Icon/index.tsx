@@ -8,7 +8,7 @@ export type propsType = {
 
 const Icons = {
   arrow: (
-    <svg fill="white" height="15px" width="15px" viewBox="0 0 20 20">
+    <svg fill="white" height="30px" width="30px" viewBox="0 0 20 20">
       <g>
         <path d="M6.5 5.5L11 10l-4.5 4.5L8 16l6-6-6-6-1.5 1.5z"></path>
       </g>

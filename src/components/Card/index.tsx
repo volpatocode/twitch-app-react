@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "../CardLive/styles";
+import * as S from "./styles";
 
 export type propsType = {
   imgWidth: "cardGame" | "cardLive" | "announcementLive";
@@ -14,7 +14,7 @@ const index = (props: propsType) => {
 
   return (
     <>
-      <S.CardLive {...props}>
+      <S.Card {...props}>
         <a href={linkHover}>
           <img
             src={imgSource}
@@ -23,7 +23,7 @@ const index = (props: propsType) => {
             height={imgHeight}
           ></img>
         </a>
-      </S.CardLive>
+      </S.Card>
     </>
   );
 };

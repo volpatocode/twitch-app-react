@@ -1,5 +1,5 @@
 import React from "react";
-import CardLive from "../CardLive";
+import CardLive from "../Card";
 import * as S from "./styles";
 
 export type propsType = {

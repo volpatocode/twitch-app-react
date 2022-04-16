@@ -1,7 +1,7 @@
 import React from "react";
 import AvatarImage from "../AvatarImage";
 import Badge from "../Badge";
-import CardLive from "../CardLive";
+import Card from "../Card";
 import LiveInfo from "../LiveInfo";
 import LiveTitles from "../LiveTitles";
 import TripleDotIcon from "../TripleDotIcon";
@@ -43,7 +43,7 @@ const index = ({
   return (
     <S.CardLiveWrapper>
       <div className="liveImage">
-        <CardLive
+        <Card
           imgSource={imgSource}
           imgAlt={imgAlt}
           imgHeight={imgHeight}
