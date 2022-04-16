@@ -2,14 +2,14 @@ import React from 'react'
 import * as S from "./styles"
 
 type propsType = {
-  variant?: "square" | "rounded";
-  backgroundColor?: string;
-  text: string;
+  badgeVariant: "square" | "rounded";
+  badgeBgColor: "grey" | "red";
+  badgeText: string;
 }
 
- const index = ({text, ...rest }: propsType) => {
+ const index = ({badgeText, ...rest }: propsType) => {
   return (
-    <S.Badge {...rest}>{text}</S.Badge>
+    <S.Badge {...rest}>{badgeText}</S.Badge>
   );
 }
 

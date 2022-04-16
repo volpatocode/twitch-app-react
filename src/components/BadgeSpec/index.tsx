@@ -2,14 +2,16 @@ import React from 'react'
 import * as S from "./styles"
 
 type propsType = {
-  text: string;
+  badgeSpecText: string;
+  badgeSpecBg: "transparent" | "none";
 }
 
- const index = ({text}: propsType) => {
+ const index = (props: propsType) => {
+  const {badgeSpecText, badgeSpecBg} = props;
   return (
     
       <>
-        <S.BadgeSpec>{text}</S.BadgeSpec>
+        <S.BadgeSpec {...props}>{badgeSpecText}</S.BadgeSpec>
       </>
 
   );

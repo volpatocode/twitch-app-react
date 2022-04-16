@@ -2,8 +2,8 @@ import React from "react";
 import * as S from "../CardLive/styles";
 
 export type propsType = {
-  imgWidth: string;
-  imgHeight: string;
+  imgWidth: "cardGame" | "cardLive" | "announcementLive";
+  imgHeight: "cardGame" | "cardLive" | "announcementLive";
   imgSource: string;
   imgAlt: string;
   linkHover: string;

@@ -1,12 +1,12 @@
 import React from "react";
-import LiveInfoWrapper from "../components/LiveInfoWrapper";
+import AnnouncementLiveWrapper from "../components/AnnouncementLiveWrapper"
 
 type propsType = {};
 
 export default function Home({}: propsType) {
   return (
     <>
-      <LiveInfoWrapper />
+     <AnnouncementLiveWrapper/>
     </>
   );
 }
