@@ -9,7 +9,7 @@ import TripleDotIcon from "../TripleDotIcon";
 import * as S from "./styles";
 
 export type propsType = {
-  avatarUrl: string;"
+  avatarUrl: string;
   avatarWidth: string;
   avatarHeight: string;
   titleText: string;

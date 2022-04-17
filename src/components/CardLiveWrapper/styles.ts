@@ -7,7 +7,6 @@ export const CardLiveWrapper = styled.div<propsType>`
     grid-template-columns: 0.2fr 1fr 0.3fr;
     grid-template-rows: 1fr;
     grid-template-areas: "img" "content" "icon";
-    background-color: red;
     padding: 3px 0px 3px 0px;
     width: 300px;
     max-height: 150px;

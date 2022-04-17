@@ -1,15 +1,13 @@
 import React from "react";
-import StreamerList from "../components/StreamerList"
+import SectionWhenOff from "../components/SectionWhenOff";
 
 type propsType = {};
 
 export default function Home({}: propsType) {
   return (
     <>
-
-      <StreamerList
-      listTitle1="Canais seguidos"
-      listTitle2="Canais recomendados"/>
+      <SectionWhenOff upCardTitle1="Enquanto"
+      upCardTitle2="está offline"></SectionWhenOff>
     </>
   );
 }

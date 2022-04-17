@@ -12,11 +12,11 @@ const index = (props: propsType) => {
 
   return (
     <>
-      <S.SearchBar {...props}>
+      <S.MainSearchBar {...props}>
         <div>
           <input type="text" placeholder={placeholder}/>
         </div>
-      </S.SearchBar>
+      </S.MainSearchBar>
     </>
   );
 };

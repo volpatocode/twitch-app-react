@@ -2,23 +2,22 @@ import React from "react";
 import * as S from "./styles";
 
 export type propsType = {
-  text:string;
-  imgLink:string;
-  imgDescription?:string;
-  
+  buttonText: string;
+  buttonImgLink: string;
+  buttonImgDescription?: string;
 };
 
-const index = (props: propsType) => {
-  const {text, imgLink, imgDescription} = props;
-
+const index = ({
+  buttonText,
+  buttonImgLink,
+  buttonImgDescription,
+}: propsType) => {
   return (
     <>
-      <S.CategoryButton {...props}>
+      <S.CategoryButton>
         <div>
-          <p>
-            {text}
-          </p>
-          <img src={imgLink} alt={imgDescription} />
+          <p>{buttonText}</p>
+          <img src={buttonImgLink} alt={buttonImgDescription} />
         </div>
       </S.CategoryButton>
     </>

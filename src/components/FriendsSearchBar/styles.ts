@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { propsType } from "./index";
 
-export const SearchBar = styled.div<propsType>`
+export const FriendsSearchBar = styled.div<propsType>`
     input{
-    width: 360px;
+    width: 215px;
     padding: 0px 10px;
     font-size: 1.1rem;
     background: #464649;
@@ -13,11 +13,8 @@ export const SearchBar = styled.div<propsType>`
     color: #909092;
     }
 
-    input:hover{
-        border: 1px solid hsla(0,0%,50%,075);
-    }
-
     input:focus{
         border: 1px solid #772ce8;
+        background-color: #18181B;
     }
 `;

@@ -6,6 +6,7 @@ export const StreamerList = styled.h1<propsType>`
     height: fit-content;
     width: 260px;
     padding: 5px 10px 5px 10px;
+    overflow-y: scroll;
 
     .firstHeaderStreamerList{
         display: flex;
@@ -29,5 +30,13 @@ export const StreamerList = styled.h1<propsType>`
         flex-direction: column;
         align-items: center;
         row-gap: 2px;
+        border-bottom: 2px solid hsla(0, 0%, 20%, 075);
+    }
+
+    .friendsSearchBar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
     }
 `;

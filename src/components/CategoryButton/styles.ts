@@ -3,7 +3,7 @@ import { propsType } from "./index";
 
 export const CategoryButton = styled.div<propsType>`
   div{
-      width: 310px;
+      width: 302px;
       height: 45px;
       background-color:#772ce8;
       border-radius: 8px;

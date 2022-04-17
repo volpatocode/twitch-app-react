@@ -2,19 +2,19 @@ import React from "react";
 import * as S from "./styles";
 
 export type propsType = {
-  text:string;
+  linkAnchorText:string;
   anchorLink: string;
 
   
 };
 
 const index = (props: propsType) => {
-  const {text, anchorLink} = props;
+  const {linkAnchorText, anchorLink} = props;
 
   return (
     <>
       <S.LinkAnchor {...props}>
-        <a href={anchorLink}>{text}</a>
+        <a href={anchorLink}>{linkAnchorText}</a>
       </S.LinkAnchor>
     </>
   );

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { propsType } from "./index";
 
 export const ShowMore = styled.div<propsType>`
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 600;
   display: flex;
 

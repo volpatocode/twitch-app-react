@@ -3,7 +3,7 @@ import IconTwitch from "../IconTwitch"
 import Button from "../Button";
 import * as S from "./styles";
 import TripleDotIcon from "../TripleDotIcon";
-import SearchBar from "../SearchBar";
+import SearchBar from "../MainSearchBar";
 import Icon from "../Icon"
 
 import AvatarImage from "../AvatarImage";

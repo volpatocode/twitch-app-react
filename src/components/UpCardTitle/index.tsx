@@ -2,17 +2,14 @@ import React from "react";
 import * as S from "./styles";
 
 export type propsType = {
-  text:string;
-
+  upCardTitle: string;
 };
 
-const index = (props: propsType) => {
-  const {text} = props;
-
+const index = ({ upCardTitle }: propsType) => {
   return (
     <>
-      <S.UpCardTitle {...props}>
-        <h2>{text}</h2>
+      <S.UpCardTitle>
+        <h2>{upCardTitle}</h2>
       </S.UpCardTitle>
     </>
   );
