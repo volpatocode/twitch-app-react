@@ -3,10 +3,10 @@ import { propsType } from "./index";
 
 export const StreamerList = styled.h1<propsType>`
     background:#1F1F23;
-    height: fit-content;
-    width: 260px;
+    height: 100%;
+    width: 100%;
     padding: 5px 10px 5px 10px;
-    overflow-y: scroll;
+
 
     .firstHeaderStreamerList{
         display: flex;

@@ -40,6 +40,7 @@ export const AnnouncementLiveWrapper = styled.div<propsType>`
 
   .badges {
     padding-bottom: 10px;
+    grid-area: "badges";
   }
 
   .liveBadge {
@@ -47,6 +48,22 @@ export const AnnouncementLiveWrapper = styled.div<propsType>`
     top: 5px;
     left: 5px;
     z-index: 2;
+  }
+
+  .rightSecondPart {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 90%;
+    grid-template-areas: "badges"
+                       "paragraph";
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+  }
+
+  .paragraph{
+    grid-area: "paragraph";
   }
 `;
 

@@ -4,7 +4,7 @@ import * as S from "./styles";
 export type propsType = {
   direction?: "left" | "right";
   icon: "arrow" | "bits" | "buybits" | "chest" | "prime" | "whisper" | "showless";
-  iconBg?: "black" | "none";
+  iconBg: "black" | "none";
 };
 
 const Icons = {

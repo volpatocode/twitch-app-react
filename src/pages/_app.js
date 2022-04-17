@@ -11,13 +11,6 @@ const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
   }
 
-  html,body{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    height: 100%;
-    background-color:whitesmoke;
-  }
 
 `
 

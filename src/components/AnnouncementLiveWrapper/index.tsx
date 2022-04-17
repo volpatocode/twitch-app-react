@@ -98,9 +98,11 @@ const index = ({
                   badgeText={badgeText}
                 />
               </div>
-              <S.AnnouncementLiveParagraph>
-                {announcementLiveParagraphText}
-              </S.AnnouncementLiveParagraph>
+              <div className="paragraph">
+                <S.AnnouncementLiveParagraph>
+                  {announcementLiveParagraphText}
+                </S.AnnouncementLiveParagraph>
+              </div>
             </div>
           </div>
         </div>
