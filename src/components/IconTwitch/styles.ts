@@ -8,5 +8,8 @@ export const IconTwitch = styled.div<propsType>`
         height:30px;
     }
 
+    display: flex;
+    align-items: center;
+
 `
 

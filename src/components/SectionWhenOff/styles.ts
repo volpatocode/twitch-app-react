@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { propsType } from "./index";
 
 export const SectionWhenOff = styled.div<propsType>`
-  width: 100%;
-  height: 100%;
+  width: fit-content;
+  height: fit-content;
   background: #0e0e10;
 
   .cardLives {

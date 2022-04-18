@@ -45,6 +45,8 @@ const index = ({}: propsType) => {
             badgeSpecText=""
             badgeText="RPG"
             badgeVariant="rounded"
+            iconBg1="black"
+            iconBg2="black"
             announcementLiveSource="https://static-cdn.jtvnw.net/previews-ttv/live_user_yoda-440x248.jpg"
           />
           <SectionCardLives upCardTitle="Canais ao vivo que achamos que vai gostar" />

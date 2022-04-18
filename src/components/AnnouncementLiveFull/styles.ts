@@ -5,8 +5,8 @@ export const AnnouncementLiveFull = styled.div<propsType>`
   background-color: #772CE8;
   /*width: 1640px;
   height: 350px;*/
-  width: 100%;
-  height: 100%;
+  width: fit-content;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;

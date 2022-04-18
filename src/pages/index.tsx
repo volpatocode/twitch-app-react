@@ -1,12 +1,12 @@
 import React from "react";
-import MainContentWrapper from "../components/MainContentWrapper";
+import MainGrid from "../components/MainGrid";
 
 type propsType = {};
 
 export default function Home({}: propsType) {
   return (
     <>
-      <MainContentWrapper/>
+      <MainGrid/>
     </>
   );
 }

@@ -8,6 +8,9 @@ export const TripleDotIcon= styled.div`
         max-height: fit-content;
     }
 
+    display: flex;
+    align-items: center;
+
 
     svg:hover{
     background:hsla(0,0%,20%,075);

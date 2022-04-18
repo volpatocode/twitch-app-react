@@ -8,6 +8,8 @@ export const Icon = styled.div<propsType>`
   transform: ${(props) =>
     props.direction === "left" ? "rotateY(180deg)" : "initial"};
   background: ${(props) => props.iconBg === "black" ? "#0E0E10" : "none"};
+  display: flex;
+  align-items: center;
 
   :hover {
     background: hsla(0, 0%, 20%, 075);
