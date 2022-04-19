@@ -3,10 +3,7 @@ import { propsType } from "./index";
 
 export const AnnouncementLiveFull = styled.div<propsType>`
   background-color: #772CE8;
-  /*width: 1640px;
-  height: 350px;*/
-  width: fit-content;
-  height: fit-content;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

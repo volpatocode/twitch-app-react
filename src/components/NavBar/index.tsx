@@ -15,16 +15,16 @@ const index = (props: propsType) => {
 
   return (
     <S.NavBar>
-      <div className="left">
+      <S.Flex>
         <IconTwitch></IconTwitch>
         <Button text="Seguindo" linkUrl="#"></Button>
         <Button text="Procurar" linkUrl="#"></Button>
         <TripleDotIcon></TripleDotIcon>
-      </div>
-      <div className="middle">
+      </S.Flex>
+      <S.Flex>
         <SearchBar placeholder="Buscar"></SearchBar>
-      </div>
-      <div className="right">
+      </S.Flex>
+      <S.Flex>
         <Icon iconBg="none" icon="prime"></Icon>
         <Icon iconBg="none" icon="chest"></Icon>
         <Icon iconBg="none" icon="whisper"></Icon>
@@ -35,7 +35,7 @@ const index = (props: propsType) => {
           avatarWidth="35px"
           avatarStatus="online"
         />
-      </div>
+      </S.Flex>
     </S.NavBar>
   );
 };
