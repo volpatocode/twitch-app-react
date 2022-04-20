@@ -3,7 +3,14 @@ import * as S from "./styles";
 
 export type propsType = {
   direction?: "left" | "right";
-  icon: "arrow" | "bits" | "buybits" | "chest" | "prime" | "whisper" | "showless";
+  icon:
+    | "arrow"
+    | "bits"
+    | "buybits"
+    | "chest"
+    | "prime"
+    | "whisper"
+    | "showless";
   iconBg: "black" | "none";
 };
 
@@ -27,18 +34,21 @@ const Icons = {
     </svg>
   ),
   buybits: (
-    <svg fill="white" height="25px" width="25px" viewBox="0 0 20 20">
-      <g>
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M3 12l7-10 7 10-7 6-7-6zm2.678-.338L10 5.487l4.322 6.173-.85.728L10 11l-3.473 1.39-.849-.729z"
-        ></path>
-      </g>
-    </svg>
+    <div className="buyBits">
+      <svg fill="white" height="20px" width="20px" viewBox="0 0 20 20">
+        <g>
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3 12l7-10 7 10-7 6-7-6zm2.678-.338L10 5.487l4.322 6.173-.85.728L10 11l-3.473 1.39-.849-.729z"
+          ></path>
+        </g>
+      </svg>
+      <p>Comprar Bits</p>
+    </div>
   ),
   chest: (
-    <svg fill="white" width="20px" height="20px" viewBox="0 0 20 20">
+    <svg fill="white" width="18px" height="18px" viewBox="0 0 20 20">
       <g>
         <path
           fill-rule="evenodd"
@@ -49,7 +59,7 @@ const Icons = {
     </svg>
   ),
   prime: (
-    <svg fill="white" height="20px" width="20px" viewBox="0 0 20 20">
+    <svg fill="white" height="18px" width="18px" viewBox="0 0 20 20">
       <g>
         <path
           fill-rule="evenodd"
@@ -60,7 +70,7 @@ const Icons = {
     </svg>
   ),
   whisper: (
-    <svg fill="white" height="20px" width="20px" viewBox="0 0 20 20">
+    <svg fill="white" height="18px" width="18px" viewBox="0 0 20 20">
       <g>
         <path
           fill-rule="evenodd"
@@ -79,10 +89,10 @@ const Icons = {
   ),
 };
 
-const index = ({ icon, ...rest}: propsType) => {
+const index = ({ icon, ...rest }: propsType) => {
   return (
     <>
-      <S.Icon {...rest} >{Icons[icon]}</S.Icon>
+      <S.Icon {...rest}>{Icons[icon]}</S.Icon>
     </>
   );
 };

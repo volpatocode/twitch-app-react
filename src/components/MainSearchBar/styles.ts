@@ -15,6 +15,6 @@ export const MainSearchBar = styled.div<propsType>`
 
     input:focus{
         border: 1px solid #772ce8;
-        background-color:18181B;
+        background-color:#18181B;
     }
 `;

@@ -6,7 +6,8 @@ export const ViwersAtmList = styled.div<propsType>`
 
   p{
     font-size: 1.2rem;
-    color: grey;
+    color: hsla(0, 0%, 85%, 075);
+    padding-left: 2px;
   }
 `
 

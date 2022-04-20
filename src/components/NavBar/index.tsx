@@ -31,8 +31,8 @@ const index = (props: propsType) => {
         <Icon iconBg="none" icon="buybits"></Icon>
         <AvatarImage
           avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/b572fe0a-3fab-4a0c-bc7e-c10ff637fdb5-profile_image-50x50.png"
-          avatarHeight="35px"
-          avatarWidth="35px"
+          avatarHeight="30px"
+          avatarWidth="30px"
           avatarStatus="online"
         />
       </S.Flex>

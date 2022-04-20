@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { propsType } from "./index";
 export const LiveStreamerInList = styled.div<propsType>`
-  height: 50px;
+  height: 40px;
   width: 235px;
   :hover {
     background: hsla(0, 0%, 20%, 075);
@@ -28,7 +28,7 @@ export const LiveStreamerInList = styled.div<propsType>`
   .info {
     grid-area: "info";
     grid-row: span 2;
-    padding: 3px 0px 0px 3px;
+    padding: 6px 0px 0px 3px;
   }
 
   .spectators {

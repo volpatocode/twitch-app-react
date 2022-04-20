@@ -5,6 +5,8 @@ export const ShowMore = styled.div<propsType>`
   font-size: 2.3rem;
   font-weight: 600;
   display: flex;
+  min-width: 100px;
+  justify-content: center;
 
   button {
     color: #a970ff;

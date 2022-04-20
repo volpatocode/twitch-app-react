@@ -4,13 +4,14 @@ import { propsType } from "./index";
 export const SectionCardLives = styled.div<propsType>`
   width: 100%;
   background: #0e0e10;
+  padding-top: 30px;
 
   .cardLives {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    column-gap: 10px;
-    justify-content: space-between;
+    column-gap: 8px;
+    justify-content: space-around;
   }
 
   .sectionTitle {
@@ -32,9 +33,11 @@ export const SectionCardLives = styled.div<propsType>`
 
   .border1 {
     border-top: 1px solid hsla(0, 0%, 20%, 075);
+    width: 100%;
   }
 
   .border2 {
     border-top: 1px solid hsla(0, 0%, 20%, 075);
+    width: 100%;;
   }
 `;

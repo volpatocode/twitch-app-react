@@ -12,6 +12,11 @@ export const CategoryButton = styled.div<propsType>`
       align-items: center;
       justify-content: space-between;
       padding: 3px 15px 3px 15px;
+      cursor: pointer;
+  }
+
+  div:hover{
+    background-color:#9147ff;
   }
 
   img{
@@ -26,4 +31,5 @@ export const CategoryButton = styled.div<propsType>`
       font-weight: 700;
       text-align: center;
   }
+
 `;

@@ -128,18 +128,6 @@ const index = ({ upCardTitle }: propsType) => {
             badgeText="Aventura"
             badgeVariant="rounded"
           />
-          <CardGameWrapper
-            imgAlt="Rust"
-            imgHeight="cardGame"
-            imgSource="https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-188x250.jpg"
-            imgWidth="cardGame"
-            linkHover="https://www.twitch.tv/directory/game/Rust"
-            titleText="Rust"
-            infoText="6,5 mil espectadores"
-            badgeBgColor="grey"
-            badgeText="Aventura"
-            badgeVariant="rounded"
-          />
         </div>
       </S.SectionCategories>
     </>

@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 export const LiveTitles = styled.div`
     h1{
-        font-size: 1.2rem;
-        color: #f6f6f6;
+        font-size: 1.4rem;
+        color: #DEDEE3;
         font-weight:bold;
         margin-bottom: 3px;
         &:hover{
