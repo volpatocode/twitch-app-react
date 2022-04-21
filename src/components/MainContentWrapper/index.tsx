@@ -18,7 +18,7 @@ const index = ({}: propsType) => {
             announcementLiveWidth="announcementLive"
             announcementLiveAlt="Live de Anúncio"
             announcementLiveHeight="announcementLive"
-            announcementLiveLink="https://www.twitch.tv/brat"
+            announcementLiveLink="#"
             announcementLiveParagraphText="Juntando a habilidade dos speedrunners com a boa vontade de todos, a Brazilians Against Time faz uma grande maratona anual para ajudar causas humanitárias. \r\nClique aqui para assistir e conversar."
             avatarHeight="40px"
             avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
@@ -35,8 +35,7 @@ const index = ({}: propsType) => {
             badgeVariant="rounded"
             iconBg1="black"
             iconBg2="black"
-            announcementLiveSource="https://static-cdn.jtvnw.net/previews-ttv/live_user_yoda-440x248.jpg"
-          />
+            announcementLiveSource="https://images.squarespace-cdn.com/content/v1/5b98455d5417fcd50c23a96d/1539550976006-WFMXLXMA84G6YS2G3ULP/capa+ROXOS.jpg?format=2500w"/>
         <SectionCardLives upCardTitle="Canais ao vivo que achamos que vai gostar" />
         <SectionCategories upCardTitle="que achamos que vai gostar" />
         <SectionWhenOff upCardTitle1="Enquanto" upCardTitle2="está offline" />

@@ -8,7 +8,7 @@ export type propsType = {
   upCardTitle: string;
 };
 
-const index = ({ upCardTitle }: propsType) => {
+const index = ({ upCardTitle, sectionCardLives, sectionCategories, sectionWhenOff }: propsType) => {
   return (
     <>
       <S.SectionCardLives>
