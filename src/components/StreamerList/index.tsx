@@ -21,7 +21,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
         </div>
         <div className="streamerList">
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -31,7 +31,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -41,7 +41,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -51,7 +51,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -61,7 +61,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -71,7 +71,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -81,7 +81,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -91,7 +91,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -101,7 +101,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -111,7 +111,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -121,7 +121,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -131,7 +131,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -141,7 +141,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -151,7 +151,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="5,4 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -167,7 +167,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
         </div>
         <div className="streamerList">
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/044e146b-09ff-449d-b2a1-95a2358ac3a8-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -177,7 +177,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="11,1 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/044e146b-09ff-449d-b2a1-95a2358ac3a8-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -187,7 +187,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="11,1 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/044e146b-09ff-449d-b2a1-95a2358ac3a8-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -197,7 +197,7 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="11,1 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/044e146b-09ff-449d-b2a1-95a2358ac3a8-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"
@@ -207,7 +207,17 @@ const index = ({ listTitle1, listTitle2 }: propsType) => {
             viwers="11,1 mil"
           />
           <LiveStreamerInList
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/044e146b-09ff-449d-b2a1-95a2358ac3a8-profile_image-70x70.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
+            avatarWidth="30px"
+            avatarHeight="30px"
+            dotHeight="live"
+            dotWidth="live"
+            infoText="League of Legends"
+            titleText="Jukes"
+            viwers="11,1 mil"
+          />
+          <LiveStreamerInList
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarWidth="30px"
             avatarHeight="30px"
             dotHeight="live"

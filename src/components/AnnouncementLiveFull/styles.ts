@@ -8,6 +8,7 @@ export const AnnouncementLiveFull = styled.div<propsType>`
   align-items: center;
   justify-content: center;
   height: 350px;
+  margin-bottom: 15px;
 
   .grid {
     display: grid;

@@ -11,10 +11,7 @@ type propsType = {};
 export default function Home({}: propsType) {
   return (
     <>
-      <SectionContent
-        upCardTitle="Categorias testea aaaaaaa"
-        section="whenOff"
-      />
+      <MainGrid />
     </>
   );
 }

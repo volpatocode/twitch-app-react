@@ -4,7 +4,7 @@ import { propsType } from "./index";
 export const SectionContent = styled.div<propsType>`
   width: 100%;
   background: #0e0e10;
-  padding-top: 30px;
+  padding-top: 15px;
 
   .cardLives {
     display: flex;
@@ -38,16 +38,13 @@ export const SectionContent = styled.div<propsType>`
 
   .border2 {
     border-top: 1px solid hsla(0, 0%, 20%, 075);
-    width: 100%;;
+    width: 100%;
   }
 `;
 
-
-
-
 export const SectionCategories = styled.div<propsType>`
   width: 100%;
-
+  padding-bottom: 5px;
   background: #0e0e10;
   border-bottom: 1px solid hsla(0, 0%, 20%, 075);
 
@@ -57,7 +54,7 @@ export const SectionCategories = styled.div<propsType>`
     align-items: center;
     column-gap: 10px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .sectionTitle {
@@ -71,19 +68,17 @@ export const SectionCategories = styled.div<propsType>`
   }
 `;
 
-
-
-
 export const SectionWhenOff = styled.div<propsType>`
   width: 100%;
   background: #0e0e10;
+  padding-top: 30px;
 
   .cardLives {
     display: flex;
     align-items: center;
     column-gap: 10px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .sectionTitle {
@@ -101,11 +96,11 @@ export const SectionWhenOff = styled.div<propsType>`
     align-items: center;
     margin: 0 auto;
     padding-bottom: 10px;
-    column-gap: 10px;
+    column-gap: 8px;
     padding-bottom: 25px;
     flex-wrap: wrap;
     row-gap: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .showMore {
@@ -118,10 +113,11 @@ export const SectionWhenOff = styled.div<propsType>`
 
   .border1 {
     border-top: 1px solid hsla(0, 0%, 20%, 075);
+    width: 100%;
   }
 
   .border2 {
     border-top: 1px solid hsla(0, 0%, 20%, 075);
+    width: 100%;
   }
 `;
-

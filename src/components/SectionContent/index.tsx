@@ -11,13 +11,18 @@ import LinkAnchor from "../LinkAnchor";
 import CategoryButton from "../CategoryButton";
 
 export type propsType = {
-  upCardTitle: string;
+  upCardTitle?: string;
   section: "lives" | "categories" | "whenOff";
   upCardTitle1?: string;
   upCardTitle2?: string;
 };
 
-const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) => {
+const index = ({
+  upCardTitle,
+  upCardTitle1,
+  upCardTitle2,
+  section,
+}: propsType) => {
   if (section === "lives") {
     return (
       <>
@@ -27,7 +32,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
           </div>
           <div className="cardLives">
             <CardLiveWrapper
-              avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-50x50.png"
+              avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
               avatarHeight="40px"
               avatarWidth="40px"
               titleText="O BRASILEIRÃO CHEGOU! AMANHA TEM SAFADEZA"
@@ -40,7 +45,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
               imgAlt="Live do rei do entretenimento"
               imgHeight="cardLive"
               imgWidth="cardLive"
-              linkHover="https://www.twitch.tv/casimito"
+              linkHover="#"
               badgeSpecBg="transparent"
               badgeSpecText="33,5 mil espectadores"
               liveBadgeBgColor="red"
@@ -48,7 +53,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
               liveBadgeVariant="square"
             />
             <CardLiveWrapper
-              avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-50x50.png"
+              avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
               avatarHeight="40px"
               avatarWidth="40px"
               titleText="O BRASILEIRÃO CHEGOU! AMANHA TEM SAFADEZA"
@@ -61,7 +66,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
               imgAlt="Live do rei do entretenimento"
               imgHeight="cardLive"
               imgWidth="cardLive"
-              linkHover="https://www.twitch.tv/casimito"
+              linkHover="#"
               badgeSpecBg="transparent"
               badgeSpecText="33,5 mil espectadores"
               liveBadgeBgColor="red"
@@ -69,7 +74,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
               liveBadgeVariant="square"
             />
             <CardLiveWrapper
-              avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-50x50.png"
+              avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
               avatarHeight="40px"
               avatarWidth="40px"
               titleText="O BRASILEIRÃO CHEGOU! AMANHA TEM SAFADEZA"
@@ -82,7 +87,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
               imgAlt="Live do rei do entretenimento"
               imgHeight="cardLive"
               imgWidth="cardLive"
-              linkHover="https://www.twitch.tv/casimito"
+              linkHover="#"
               badgeSpecBg="transparent"
               badgeSpecText="33,5 mil espectadores"
               liveBadgeBgColor="red"
@@ -90,7 +95,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
               liveBadgeVariant="square"
             />
             <CardLiveWrapper
-              avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-50x50.png"
+              avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
               avatarHeight="40px"
               avatarWidth="40px"
               titleText="O BRASILEIRÃO CHEGOU! AMANHA TEM SAFADEZA"
@@ -103,7 +108,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
               imgAlt="Live do rei do entretenimento"
               imgHeight="cardLive"
               imgWidth="cardLive"
-              linkHover="https://www.twitch.tv/casimito"
+              linkHover="#"
               badgeSpecBg="transparent"
               badgeSpecText="33,5 mil espectadores"
               liveBadgeBgColor="red"
@@ -111,7 +116,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
               liveBadgeVariant="square"
             />
             <CardLiveWrapper
-              avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-50x50.png"
+              avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
               avatarHeight="40px"
               avatarWidth="40px"
               titleText="O BRASILEIRÃO CHEGOU! AMANHA TEM SAFADEZA"
@@ -124,7 +129,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
               imgAlt="Live do rei do entretenimento"
               imgHeight="cardLive"
               imgWidth="cardLive"
-              linkHover="https://www.twitch.tv/casimito"
+              linkHover="#"
               badgeSpecBg="transparent"
               badgeSpecText="33,5 mil espectadores"
               liveBadgeBgColor="red"
@@ -154,108 +159,109 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
         </div>
         <div className="cardLives">
           <CardGameWrapper
-            imgAlt="Rust"
+            imgAlt="Só na conversa"
             imgHeight="cardGame"
-            imgSource="https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-188x250.jpg"
+            imgSource="https://images.squarespace-cdn.com/content/v1/5b98455d5417fcd50c23a96d/1539550976006-WFMXLXMA84G6YS2G3ULP/capa+ROXOS.jpg?format=2500w"
             imgWidth="cardGame"
-            linkHover="https://www.twitch.tv/directory/game/Rust"
-            titleText="Rust"
+            linkHover="#"
+            titleText="Só na conversa"
             infoText="6,5 mil espectadores"
             badgeBgColor="grey"
             badgeText="Aventura"
             badgeVariant="rounded"
           />
           <CardGameWrapper
-            imgAlt="Rust"
+            imgAlt="Só na conversa"
             imgHeight="cardGame"
-            imgSource="https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-188x250.jpg"
+            imgSource="https://images.squarespace-cdn.com/content/v1/5b98455d5417fcd50c23a96d/1539550976006-WFMXLXMA84G6YS2G3ULP/capa+ROXOS.jpg?format=2500w"
             imgWidth="cardGame"
-            linkHover="https://www.twitch.tv/directory/game/Rust"
-            titleText="Rust"
+            linkHover="#"
+            titleText="Só na conversa"
             infoText="6,5 mil espectadores"
             badgeBgColor="grey"
             badgeText="Aventura"
             badgeVariant="rounded"
           />
           <CardGameWrapper
-            imgAlt="Rust"
+            imgAlt="Só na conversa"
             imgHeight="cardGame"
-            imgSource="https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-188x250.jpg"
+            imgSource="https://images.squarespace-cdn.com/content/v1/5b98455d5417fcd50c23a96d/1539550976006-WFMXLXMA84G6YS2G3ULP/capa+ROXOS.jpg?format=2500w"
             imgWidth="cardGame"
-            linkHover="https://www.twitch.tv/directory/game/Rust"
-            titleText="Rust"
+            linkHover="#"
+            titleText="Só na conversa"
             infoText="6,5 mil espectadores"
             badgeBgColor="grey"
             badgeText="Aventura"
             badgeVariant="rounded"
           />
           <CardGameWrapper
-            imgAlt="Rust"
+            imgAlt="Só na conversa"
             imgHeight="cardGame"
-            imgSource="https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-188x250.jpg"
+            imgSource="https://images.squarespace-cdn.com/content/v1/5b98455d5417fcd50c23a96d/1539550976006-WFMXLXMA84G6YS2G3ULP/capa+ROXOS.jpg?format=2500w"
             imgWidth="cardGame"
-            linkHover="https://www.twitch.tv/directory/game/Rust"
-            titleText="Rust"
+            linkHover="#"
+            titleText="Só na conversa"
             infoText="6,5 mil espectadores"
             badgeBgColor="grey"
             badgeText="Aventura"
             badgeVariant="rounded"
           />
           <CardGameWrapper
-            imgAlt="Rust"
+            imgAlt="Só na conversa"
             imgHeight="cardGame"
-            imgSource="https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-188x250.jpg"
+            imgSource="https://images.squarespace-cdn.com/content/v1/5b98455d5417fcd50c23a96d/1539550976006-WFMXLXMA84G6YS2G3ULP/capa+ROXOS.jpg?format=2500w"
             imgWidth="cardGame"
-            linkHover="https://www.twitch.tv/directory/game/Rust"
-            titleText="Rust"
+            linkHover="#"
+            titleText="Só na conversa"
             infoText="6,5 mil espectadores"
             badgeBgColor="grey"
             badgeText="Aventura"
             badgeVariant="rounded"
           />
           <CardGameWrapper
-            imgAlt="Rust"
+            imgAlt="Só na conversa"
             imgHeight="cardGame"
-            imgSource="https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-188x250.jpg"
+            imgSource="https://images.squarespace-cdn.com/content/v1/5b98455d5417fcd50c23a96d/1539550976006-WFMXLXMA84G6YS2G3ULP/capa+ROXOS.jpg?format=2500w"
             imgWidth="cardGame"
-            linkHover="https://www.twitch.tv/directory/game/Rust"
-            titleText="Rust"
+            linkHover="#"
+            titleText="Só na conversa"
             infoText="6,5 mil espectadores"
             badgeBgColor="grey"
             badgeText="Aventura"
             badgeVariant="rounded"
           />
           <CardGameWrapper
-            imgAlt="Rust"
+            imgAlt="Só na conversa"
             imgHeight="cardGame"
-            imgSource="https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-188x250.jpg"
+            imgSource="https://images.squarespace-cdn.com/content/v1/5b98455d5417fcd50c23a96d/1539550976006-WFMXLXMA84G6YS2G3ULP/capa+ROXOS.jpg?format=2500w"
             imgWidth="cardGame"
-            linkHover="https://www.twitch.tv/directory/game/Rust"
-            titleText="Rust"
+            linkHover="#"
+            titleText="Só na conversa"
             infoText="6,5 mil espectadores"
             badgeBgColor="grey"
             badgeText="Aventura"
             badgeVariant="rounded"
           />
           <CardGameWrapper
-            imgAlt="Rust"
+            imgAlt="Só na conversa"
             imgHeight="cardGame"
-            imgSource="https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-188x250.jpg"
+            imgSource="https://images.squarespace-cdn.com/content/v1/5b98455d5417fcd50c23a96d/1539550976006-WFMXLXMA84G6YS2G3ULP/capa+ROXOS.jpg?format=2500w"
             imgWidth="cardGame"
-            linkHover="https://www.twitch.tv/directory/game/Rust"
-            titleText="Rust"
+            linkHover="#"
+            titleText="Só na conversa"
             infoText="6,5 mil espectadores"
             badgeBgColor="grey"
             badgeText="Aventura"
             badgeVariant="rounded"
           />
+
           <CardGameWrapper
-            imgAlt="Rust"
+            imgAlt="Só na conversa"
             imgHeight="cardGame"
-            imgSource="https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-188x250.jpg"
+            imgSource="https://images.squarespace-cdn.com/content/v1/5b98455d5417fcd50c23a96d/1539550976006-WFMXLXMA84G6YS2G3ULP/capa+ROXOS.jpg?format=2500w"
             imgWidth="cardGame"
-            linkHover="https://www.twitch.tv/directory/game/Rust"
-            titleText="Rust"
+            linkHover="#"
+            titleText="Só na conversa"
             infoText="6,5 mil espectadores"
             badgeBgColor="grey"
             badgeText="Aventura"
@@ -305,7 +311,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
         </div>
         <div className="cardLives">
           <CardLiveWrapper
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-50x50.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarHeight="40px"
             avatarWidth="40px"
             titleText="O BRASILEIRÃO CHEGOU! AMANHA TEM SAFADEZA"
@@ -314,11 +320,11 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
             badgeText="Entretenimento"
             badgeVariant="rounded"
             badgeBgColor="grey"
-            imgSource="https://static-cdn.jtvnw.net/previews-ttv/live_user_casimito-440x248.jpg"
+            imgSource="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             imgAlt="Live do rei do entretenimento"
             imgHeight="cardLive"
             imgWidth="cardLive"
-            linkHover="https://www.twitch.tv/casimito"
+            linkHover="#"
             badgeSpecBg="transparent"
             badgeSpecText="33,5 mil espectadores"
             liveBadgeBgColor="red"
@@ -326,7 +332,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
             liveBadgeVariant="square"
           />
           <CardLiveWrapper
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-50x50.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarHeight="40px"
             avatarWidth="40px"
             titleText="O BRASILEIRÃO CHEGOU! AMANHA TEM SAFADEZA"
@@ -335,11 +341,11 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
             badgeText="Entretenimento"
             badgeVariant="rounded"
             badgeBgColor="grey"
-            imgSource="https://static-cdn.jtvnw.net/previews-ttv/live_user_casimito-440x248.jpg"
+            imgSource="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             imgAlt="Live do rei do entretenimento"
             imgHeight="cardLive"
             imgWidth="cardLive"
-            linkHover="https://www.twitch.tv/casimito"
+            linkHover="#"
             badgeSpecBg="transparent"
             badgeSpecText="33,5 mil espectadores"
             liveBadgeBgColor="red"
@@ -347,7 +353,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
             liveBadgeVariant="square"
           />
           <CardLiveWrapper
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-50x50.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarHeight="40px"
             avatarWidth="40px"
             titleText="O BRASILEIRÃO CHEGOU! AMANHA TEM SAFADEZA"
@@ -356,11 +362,11 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
             badgeText="Entretenimento"
             badgeVariant="rounded"
             badgeBgColor="grey"
-            imgSource="https://static-cdn.jtvnw.net/previews-ttv/live_user_casimito-440x248.jpg"
+            imgSource="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             imgAlt="Live do rei do entretenimento"
             imgHeight="cardLive"
             imgWidth="cardLive"
-            linkHover="https://www.twitch.tv/casimito"
+            linkHover="#"
             badgeSpecBg="transparent"
             badgeSpecText="33,5 mil espectadores"
             liveBadgeBgColor="red"
@@ -368,7 +374,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
             liveBadgeVariant="square"
           />
           <CardLiveWrapper
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-50x50.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarHeight="40px"
             avatarWidth="40px"
             titleText="O BRASILEIRÃO CHEGOU! AMANHA TEM SAFADEZA"
@@ -377,11 +383,11 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
             badgeText="Entretenimento"
             badgeVariant="rounded"
             badgeBgColor="grey"
-            imgSource="https://static-cdn.jtvnw.net/previews-ttv/live_user_casimito-440x248.jpg"
+            imgSource="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             imgAlt="Live do rei do entretenimento"
             imgHeight="cardLive"
             imgWidth="cardLive"
-            linkHover="https://www.twitch.tv/casimito"
+            linkHover="#"
             badgeSpecBg="transparent"
             badgeSpecText="33,5 mil espectadores"
             liveBadgeBgColor="red"
@@ -389,7 +395,7 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
             liveBadgeVariant="square"
           />
           <CardLiveWrapper
-            avatarUrl="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-50x50.png"
+            avatarUrl="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             avatarHeight="40px"
             avatarWidth="40px"
             titleText="O BRASILEIRÃO CHEGOU! AMANHA TEM SAFADEZA"
@@ -398,11 +404,11 @@ const index = ({ upCardTitle, upCardTitle1, upCardTitle2, section }: propsType) 
             badgeText="Entretenimento"
             badgeVariant="rounded"
             badgeBgColor="grey"
-            imgSource="https://static-cdn.jtvnw.net/previews-ttv/live_user_casimito-440x248.jpg"
+            imgSource="https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg"
             imgAlt="Live do rei do entretenimento"
             imgHeight="cardLive"
             imgWidth="cardLive"
-            linkHover="https://www.twitch.tv/casimito"
+            linkHover="#"
             badgeSpecBg="transparent"
             badgeSpecText="33,5 mil espectadores"
             liveBadgeBgColor="red"
