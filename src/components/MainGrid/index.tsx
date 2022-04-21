@@ -1,5 +1,4 @@
 import React from "react";
-import AnnouncementLiveFull from "../AnnouncementLiveFull";
 import MainContentWrapper from "../MainContentWrapper";
 import NavBar from "../NavBar";
 import StreamerList from "../StreamerList";

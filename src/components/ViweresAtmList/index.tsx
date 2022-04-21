@@ -1,28 +1,20 @@
-import React from 'react'
-import * as S from "./styles"
+import React from "react";
+import * as S from "./styles";
 
 export type propsType = {
   viwers: string;
-    
-}
+};
 
- const index = (props: propsType) => {
-  const {viwers} = props;
-
+const index = (props: propsType) => {
+  const { viwers } = props;
 
   return (
     <>
       <S.ViwersAtmList>
-          <p>
-            {viwers}
-          </p>
+        <p>{viwers}</p>
       </S.ViwersAtmList>
     </>
-  )
-
-}
-
+  );
+};
 
 export default index;
-
-

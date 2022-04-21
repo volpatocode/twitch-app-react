@@ -3,13 +3,7 @@ import * as S from "./styles";
 
 export type propsType = {
   direction?: "left" | "right";
-  icon:
-    | "arrow"
-    | "bits"
-    | "chest"
-    | "prime"
-    | "whisper"
-    | "showless";
+  icon: "arrow" | "bits" | "chest" | "prime" | "whisper" | "showless";
   iconBg: "black" | "none";
 };
 

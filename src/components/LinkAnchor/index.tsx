@@ -2,14 +2,12 @@ import React from "react";
 import * as S from "./styles";
 
 export type propsType = {
-  linkAnchorText:string;
+  linkAnchorText: string;
   anchorLink: string;
-
-  
 };
 
 const index = (props: propsType) => {
-  const {linkAnchorText, anchorLink} = props;
+  const { linkAnchorText, anchorLink } = props;
 
   return (
     <>

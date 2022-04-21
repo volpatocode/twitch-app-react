@@ -1,6 +1,5 @@
 import React from "react";
 import * as S from "./styles";
-
 export type propsType = {};
 
 const index = (props: propsType) => {

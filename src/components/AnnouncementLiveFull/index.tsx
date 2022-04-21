@@ -48,12 +48,7 @@ const index = ({
             <Icon iconBg={iconBg1} icon={icon1} direction={direction1} />
           </div>
           <div className="middle">
-            {/* randerização condicional */}
-            {props.liveNameText ? (
-              <AnnouncementLiveWrapper {...props}></AnnouncementLiveWrapper>
-            ) : (
-              <div>error</div>
-            )}
+            <AnnouncementLiveWrapper {...props}></AnnouncementLiveWrapper>
           </div>
           <div className="right">
             <Icon iconBg={iconBg2} icon={icon2} direction={direction2} />

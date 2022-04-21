@@ -5,9 +5,7 @@ export type propsType = {
   listTitle: string;
 };
 
-const index = ({listTitle}: propsType) => {
-
-
+const index = ({ listTitle }: propsType) => {
   return (
     <>
       <S.StreamerListTitle>{listTitle}</S.StreamerListTitle>

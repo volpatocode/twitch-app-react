@@ -1,13 +1,10 @@
 import React from "react";
 import * as S from "./styles";
 
-type propsType = {
-
-};
+type propsType = {};
 
 const index = (props: propsType) => {
-
-const {} = props;
+  const {} = props;
 
   return (
     <S.TripleDotIcon {...props}>
