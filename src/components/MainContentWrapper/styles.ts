@@ -6,7 +6,6 @@ export const MainContentWrapper = styled.div`
   max-height: 100%;
   padding: 30px;
   background: #0e0e10;
-
   overflow-y: auto;
 
   ::-webkit-scrollbar {

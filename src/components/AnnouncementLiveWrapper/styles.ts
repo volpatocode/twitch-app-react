@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { propsType } from "./index";
 
 export const AnnouncementLiveWrapper = styled.div<propsType>`
-  border: 1px solid rgba(0, 0, 0, 0.8);
   .gridAnnouncementLive {
     display: grid;
     grid-template-columns: 530px 220px;
@@ -45,8 +44,8 @@ export const AnnouncementLiveWrapper = styled.div<propsType>`
 
   .liveBadge {
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 10px;
+    left: 10px;
     z-index: 2;
   }
 

@@ -14,16 +14,4 @@ export const Icon = styled.div<propsType>`
   :hover {
     background: hsla(0, 0%, 20%, 075);
   }
-
-  .buyBits{
-    background-color: #3A3A3D;
-    border-radius: 5px;
-    padding: 4px 8px;
-    display: flex;
-    column-gap: 5px;
-    align-items: center;
-    color: white;
-    font-size: 1.9rem;
-    font-weight: 600;
-  }
 `;

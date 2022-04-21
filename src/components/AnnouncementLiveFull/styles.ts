@@ -2,11 +2,12 @@ import styled from "styled-components";
 import { propsType } from "./index";
 
 export const AnnouncementLiveFull = styled.div<propsType>`
-  background-color: #772CE8;
+  background: url('https://p4.wallpaperbetter.com/wallpaper/463/484/1000/technology-twitch-wallpaper-thumb.jpg');
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 350px;
 
   .grid {
     display: grid;

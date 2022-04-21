@@ -24,9 +24,9 @@ export type propsType = {
   liveBadgeVariant: "square" | "rounded";
   liveBadgeBgColor: "grey" | "red";
   direction1?: "left" | "right";
-  icon1: "arrow" | "bits" | "buybits" | "chest" | "prime" | "whisper";
+  icon1: "arrow" | "bits" | "chest" | "prime" | "whisper";
   direction2?: "left" | "right";
-  icon2: "arrow" | "bits" | "buybits" | "chest" | "prime" | "whisper";
+  icon2: "arrow" | "bits" | "chest" | "prime" | "whisper";
   iconBg1: "black" | "none";
   iconBg2: "black" | "none";
 };
